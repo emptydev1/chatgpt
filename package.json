@@ -1,0 +1,26 @@
+{
+  "name": "ChatGPT",
+  "version": "1.0.0",
+  "description": "A Discord bot that uses the OpenAI API to provide a realistic ChatGPT experience. It also has some other uses..",
+  "main": "lib/index.ts",
+  "scripts": {
+    "start": "ts-node lib/index.ts"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "openai",
+    "ChatGPT"
+  ],
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "discord.js": "^14.7.1",
+    "node-fetch": "^3.3.1",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "author": "emptydev1",
+  "license": "MIT"
+}
